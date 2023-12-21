@@ -6,7 +6,7 @@ function preload() {
 
 function setup() {
   
-  let cnv = createCanvas(600,600);
+  let cnv = createCanvas(400,400);
   cnv.mouseClicked(togglePlay);
 
   amplitude = new p5.Amplitude();
