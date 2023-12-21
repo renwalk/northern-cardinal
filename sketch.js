@@ -19,7 +19,7 @@ function draw() {
   noStroke();
 
   let level = amplitude.getLevel();
-  let size = map(level, 0, 1, 0, 600);
+  let size = map(level, 0, 1, 0, 400);
   
   fill('#000000')  
   ellipse(width/2, height/2, size*150, size*150);
